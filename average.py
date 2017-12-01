@@ -10,7 +10,7 @@ coreUsageAverage = 0
 
 for i in range(0, len(coreUsageRaw) - 1):
     temp = coreUsageRaw[i].split(',')
-    coreUsage.append(round(float(temp[0])/100.0 + float(temp[1])/100, 2))
+    coreUsage.append(round(float(temp[0])/100.0 + float(temp[1])/100, 4))
     
 for i in range(0, len(coreUsage)):
     coreUsageAverage += coreUsage[i]
