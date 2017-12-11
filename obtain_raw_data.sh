@@ -19,5 +19,3 @@ printf "\n" >> py-input.txt
 
 #RAM usage as used/total
 free | grep Mem | awk '{printf substr($3, 1, length($3)-1)}END{printf "/"}END{print substr($2, 0, length($2)-1)}' >> py-input.txt
-
-cat py-input.txt
