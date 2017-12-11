@@ -9,4 +9,5 @@ do
     python3 average.py
 
     rm py-input.txt
+    sleep 1
 done
